@@ -1,0 +1,16 @@
+INDEX VERSION 1.127+/home/yume/Documents/gitHub/basecamp/scaffolding/.metadata/.plugins/org.eclipse.jdt.core
+2753738492.index
+1166801593.index
+3654376077.index
+392085238.index
+2181906647.index
+831397052.index
+3927879410.index
+3587634708.index
+670763425.index
+2565500630.index
+1234087308.index
+2007485550.index
+1591602343.index
+523012825.index
+1098657398.index
