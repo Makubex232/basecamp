@@ -7,7 +7,7 @@ public class FileList {
 		
 		//	Create a FileList object
 		FileList flObject = new FileList();
-		
+		 
 		//	Get list of files in the input folder
 		String inputFolder = "D:\\rootFolder\\" ; 
 		String[] fileList = flObject.listFilesIn(new File(inputFolder));
