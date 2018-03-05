@@ -5,7 +5,13 @@ public class FileList {
 
 	public static void main(String args[]){
 		
-		//	Create a FileList object
+		System.out.println("null :: "+testString(null)+"::");
+		System.out.println("one :: "+testString("one")+"::");
+		System.out.println("NULL :: "+testString("NULL")+"::");
+		System.out.println(" :: "+testString("")+"::");
+		System.out.println("  :: "+testString(" ")+"::");
+		
+		/*//	Create a FileList object
 		FileList flObject = new FileList();
 		 
 		//	Get list of files in the input folder
@@ -15,9 +21,14 @@ public class FileList {
 		// Print the list of files in the input folder.
 		for(String fileName : fileList){
 			System.out.println("File :: "+fileName.replace(inputFolder, ""));
-		}
+		}*/
 	}
 	
+	private static String testString(String psize) {
+		// TODO Auto-generated method stub
+		return( psize == null ? "" : psize );
+	}
+
 	public String[] listFilesIn(File inputPath){
 		ArrayList<String> fileArrayList = new ArrayList<String>();
 		
